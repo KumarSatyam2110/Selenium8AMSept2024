@@ -1,0 +1,1 @@
+{"uuid":"8229b9a9-f66f-4fd0-8067-13ab3375da18","name":"DataProvider.AddCustomer","children":["7c71f599-0be6-4d77-bb93-3d2b3c472232"],"befores":[{"name":"doLogin","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1730737843896,"stop":1730737853134}],"afters":[],"start":1730737843852,"stop":1730737854091}

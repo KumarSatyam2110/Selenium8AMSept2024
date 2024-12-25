@@ -1,0 +1,24 @@
+<suite name ="My Project4">
+    <test name = "Module1">
+        <classes>
+            <class name="TestNG.Demo3.ClassOne">
+
+                <methods>
+                    <!-->it wil exclude these Test -->
+                    <!-- <exclude name="ClassOneTest1"/>
+                     <exclude name="ClassOneTest2"/> -->
+
+                    <!--it wil include only this Test-->
+                    <include name="ClassOneTest3"/>
+                </methods>
+            </class>
+            <class name="TestNG.Demo3.ClassTwo"/>
+        </classes>
+    </test>
+
+    <test name="Module2">
+        <classes>
+            <class name="TestNG.Demo3.ClassThree"/>
+        </classes>
+    </test>
+</suite>

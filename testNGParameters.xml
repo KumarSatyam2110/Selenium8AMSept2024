@@ -1,0 +1,19 @@
+<suite name ="My Project Parameters">
+
+    <parameter name="url"  value="localhost://8700/create/"/>
+    <parameter name="username" value="prod"/>
+    <parameter name="password" value="prod123"/>
+
+    <test name = "Module1">
+        <classes>
+            <class name="TestNG.Demo4.ClassOne"/>
+            <class name="TestNG.Demo4.ClassTwo"/>
+        </classes>
+    </test>
+
+    <test name="Module2">
+        <classes>
+            <class name="TestNG.Demo4.ClassThree"/>
+        </classes>
+    </test>
+</suite>
